@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>BEM Workshop</title>
+  </head>
+
+  <body>
+    <nav class="nav nav--dark">
+      <ul class="nav__list">
+        <li class="nav__list__item">Home</li>
+        <li class="nav__list__item">Services</li>
+        <li class="nav__list__item">Products</li>
+        <li class="nav__list__item">Team</li>
+        <li class="nav__list__item">About</li>
+      </ul>
+    </nav>
+    <nav class="nav nav--inline">
+      <ul class="nav__list">
+        <li class="nav__list__item">Home</li>
+        <li class="nav__list__item">Services</li>
+        <li class="nav__list__item">Products</li>
+        <li class="nav__list__item">Team</li>
+        <li class="nav__list__item">About</li>
+      </ul>
+      <ul class="nav__list nav__list">
+        <li class="nav__list__item nav__list__item--button">Login</li>
+        <li
+          class="
+            nav__list__item nav__list__item--button nav__list__item--button-dark
+          "
+        >
+          Sign Up
+        </li>
+      </ul>
+    </nav>
+    <div class="grid">
+      <div class="card">
+        <div class="card__header card__header--centered">
+          <img
+            class="card__header__image"
+            src="https://tailwindcss.com/_next/static/media/sarah-dayan.a8ff3f1095a58085a82e3bb6aab12eb2.jpg"
+          />
+        </div>
+        <div class="card__body">
+          <p>
+            “Tailwind CSS is the only framework that I've seen scale on large
+            teams. It’s easy to customize, adapts to any design, and the build
+            size is tiny.”
+          </p>
+        </div>
+        <div class="card__footer">
+          <button class="btn">Join</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card__header card__header--centered">
+          <img
+            class="card__header__image"
+            src="https://tailwindcss.com/_next/static/media/sarah-dayan.a8ff3f1095a58085a82e3bb6aab12eb2.jpg"
+          />
+        </div>
+        <div class="card__body">
+          <p>
+            “Tailwind CSS is the only framework that I've seen scale on large
+            teams. It’s easy to customize, adapts to any design, and the build
+            size is tiny.”
+          </p>
+        </div>
+        <div class="card__footer">
+          <button class="btn">Join</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
